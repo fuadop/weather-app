@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/page.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Weather</title>
+  </head>
+  <body>
+    <h3>Welcome <%= userName %> ...</h3>
+    <div id="content">
+      <div class="type"><%= city %></div>
+      <img src="<%= src %>" alt="" />
+      <div class="temperature"><%= currentTemp %> °</div>
+      <div class="type"><%= currentDescription %></div>
+    </div>
+    <button type="submit">
+      <a href="/">Home</a>
+    </button>
+  </body>
+</html>

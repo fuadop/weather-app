@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 92, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 65%
+  );
+}
+h3 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button {
+  height: 30px;
+  font-family: sans-serif;
+  background: none;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Roboto", serif;
+}
+
+#content {
+  position: absolute;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  bottom: 8vh;
+  width: 100%;
+  z-index: 99;
+}
+#content * {
+  align-self: center;
+  color: #fff;
+}
+#content .temperature {
+  font-size: 12vh;
+}
+#content .type {
+  text-transform: uppercase;
+  font-size: 6vh;
+}

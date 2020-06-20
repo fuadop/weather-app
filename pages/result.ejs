@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <%- include('partials/head.ejs') %>
+  <body>
+    <div class="container">
+      <div>
+        <h2 class="upperCase"><%= city %></h2>
+        <h1><%= currentTemp %> °</h1>
+        <img src="<%= src  %> " alt="" />
+        <h3 class="upperCase"><%= currentDescription %></h3>
+        <a href="/"> Check another weather</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -26,6 +26,18 @@ form button {
   display: block !important;
   margin: auto !important;
 }
+.socials {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  padding-right: 1rem;
+  width: 100vw;
+  justify-content: flex-end;
+}
+.fa-custom {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
 
 /* RESULTS PAGE */
 .container {
